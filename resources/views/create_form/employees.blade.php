@@ -102,7 +102,7 @@
                         <label class="form-check-label" for="gridCheck">
                         Check me out
                         </label>
-                     </div>
+                     </div> 
                   </div>
                   <div class="col-12">
                      <button type="submit" class="btn btn-primary">Sign in</button>
