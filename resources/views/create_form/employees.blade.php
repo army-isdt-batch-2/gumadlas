@@ -17,35 +17,35 @@
                      <form action="department/save" method="post">
                         @csrf
                      <label for="inputEmail4" class="form-label">Photo</label>
-                     <input type="file" class="form-control" name="Photo" required>
+                     <input type="file" class="form-control" name="photo" required>
                   </div>
                   <div class="col-md-4">
                      <label for="inputPassword4" class="form-label">First Name</label>
-                     <input type="text" class="form-control" name="First_Name" required>
+                     <input type="text" class="form-control" name="first_name" required>
                   </div>
                   <div class="col-md-4">
                      <label for="inputPassword4" class="form-label">Middle Name</label>
-                     <input type="text" class="form-control" name="Middle_Name" required>
+                     <input type="text" class="form-control" name="middle_name" required>
                   </div>
                   <div class="col-md-4">
                      <label for="inputPassword4" class="form-label">Last Name</label>
-                     <input type="text" class="form-control" name="Last_Name" required>
+                     <input type="text" class="form-control" name="last_name" required>
                   </div>
                   <div class="col-md-4">
                      <label for="inputPassword4" class="form-label">Contact</label>
-                     <input type="tel" class="form-control" name="Contact" required>
+                     <input type="tel" class="form-control" name="contact" required>
                   </div>
                   <div class="col-md-4">
                      <label for="inputPassword4" class="form-label">Birthday</label>
-                     <input type="date" class="form-control" name="Birthday" required>
+                     <input type="date" class="form-control" name="birthday" required>
                   </div>
                   <div class="col-md-4">
                      <label for="inputState" class="form-label">Gender</label>
-                     <input type="inputState" class="form-control" name="Gender" required>
+                     <input type="inputState" class="form-control" name="gender" required>
                   </div>
                   <div class="col-12">
                      <label for="inputAddress" class="form-label">Address</label>
-                     <input type="text" class="form-control" name="inputAddress" required placeholder="1234 Main St">
+                     <input type="text" class="form-control" name="input_address" required placeholder="1234 Main St">
                   </div>
                   <div class="col-md-4">
                      <label for="inputState" class="form-label">Department</label>
