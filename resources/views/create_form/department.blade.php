@@ -13,10 +13,12 @@
                         </h4>
                     </div>
                     <div class="col-12">
+                        <form action="department/save" method="post">
+                            @csrf
                             <form class="row g-3">
-                                <div class="col-md-6">
+                                <div class="col-md-6">   
                                 <label for="inputEmail4" class="form-label">Department</label>
-                                <input type="text" class="form-control" id="inputEmail4">
+                                <input type="text" class="form-control" name="Department" required>
                                 </div>
                                 <div class="col-12">
                                 <button type="submit" class="btn btn-primary">Save</button>

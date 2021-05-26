@@ -14,6 +14,8 @@
                     </div>
                     <div class="col-12">
                             <form class="row g-3">
+                            <form action="deductions/save" method="post">
+                                @csrf
                                 <div class="col-md-4">
                                     <label for="inputEmail4" class="form-label">Employee ID</label>
                                     <input type="text" class="form-control" id="inputEmail4">

@@ -13,10 +13,12 @@
                         </h4>
                     </div>
                     <div class="col-12">
+                        <form action="deductions/save" method="post">
+                            @csrf
                             <form class="row g-3">
                             <div class="col-md-4">
                                 <label for="inputState" class="form-label">Contribution type</label>
-                                <select id="inputState" class="form-select">
+                                <select id="inputState" class="form-select" required>
                                    <option>Choose</option>
                                    <option>Tax</option>
                                    <option>SSS</option>
@@ -29,22 +31,22 @@
                             <form class="row g-3">
                             <div class="col-md-8">
                                 <label for="inputEmail4" class="form-label">Base Range</label>
-                                <input type="text" class="form-control" id="inputEmail4">
+                                <input type="text" class="form-control" name="Base Range" required>
                             </div>
 
                             <div class="col-md-4">
                                 <label for="inputEmail4" class="form-label">Monthly Contribution</label>
-                                <input type="number" class="form-control" id="inputEmail4">
+                                <input type="number" class="form-control" name="Monthly Contribution" required>
                             </div>
 
                             <div class="col-md-4">
                                 <label for="inputEmail4" class="form-label">Employee Share</label>
-                                <input type="number" class="form-control" id="inputEmail4">
+                                <input type="number" class="form-control" name="Employee Share" required>
                             </div>
 
                             <div class="col-md-4">
                                 <label for="inputEmail4" class="form-label">Employee Share</label>
-                                <input type="number" class="form-control" id="inputEmail4">
+                                <input type="number" class="form-control" name="Employee Share" required>
                             </div>
 
 

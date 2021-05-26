@@ -14,35 +14,37 @@
                     </div>
                     <div class="col-12">
                             <form class="row g-3">
+                            <form action="loans/save" method="post">
+                                @csrf
                                 <div class="col-md-4">
                                     <label for="inputEmail4" class="form-label">Employee ID</label>
-                                    <input type="text" class="form-control" id="inputEmail4">
+                                    <input type="text" class="form-control" name="Employee_ID" required>
                                 </div>
 
                                 <div class="col-md-4">
                                     <label for="inputEmail4" class="form-label">Full Name</label>
-                                    <input type="text" class="form-control" id="inputEmail4">
+                                    <input type="text" class="form-control" name="Full_Name" required>
                                 </div>
 
                                 <div class="col-md-4">
                                     <label for="inputEmail4" class="form-label">Designation</label>
-                                    <input type="text" class="form-control" id="inputEmail4">
+                                    <input type="text" class="form-control" name="Designation" required>
                                 </div>
 
                                 <div class="col-md-4">
                                     <div class="col-md-12">
                                     <label for="inputEmail4" class="form-label">Loan Type</label>
-                                    <input type="text" class="form-control" id="inputEmail4">
+                                    <input type="text" class="form-control" name="Loan_Type" required>
                                 </div>
 
                                 <div class="col-md-12">
                                     <label for="inputEmail4" class="form-label">Loan Amount</label>
-                                    <input type="number" class="form-control" id="inputEmail4">
+                                    <input type="number" class="form-control" name="Loan_Amount" required>
                                 </div>
 
                                 <div class="col-md-12">
                                     <label for="inputEmail4" class="form-label">Months Payable</label>
-                                    <input type="number" class="form-control" id="inputEmail4">
+                                    <input type="number" class="form-control" name="Months_Payable" required>
                                 </div>
     
 

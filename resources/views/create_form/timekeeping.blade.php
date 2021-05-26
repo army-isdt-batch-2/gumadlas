@@ -14,9 +14,11 @@
                     </div>
                     <div class="col-12">
                             <form class="row g-3">
+                                <form action="timekeeping/save" method="post">
+                                    @csrf
                                 <div class="col-md-8">
                                 <label for="inputEmail4" class="form-label">Attendance Date</label>
-                                <input type="date" class="form-control" id="inputEmail4">
+                                <input type="date" class="form-control" id="Attendance Date" required>
                                 </div>
                                 
 
