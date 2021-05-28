@@ -13,9 +13,8 @@
                         </h4>
                     </div>
                     <div class="col-12">
-                        <form action="deductions/save" method="post">
-                            @csrf
-                            <form class="row g-3">
+                        <form class="row g-3" action="{{ URL::route('deductions.create.save') }}" method="post">
+                            @csrf>
                             <div class="col-md-4">
                                 <label for="inputState" class="form-label">Contribution type</label>
                                 <select id="inputState" class="form-select" required>
@@ -31,22 +30,22 @@
                             <form class="row g-3">
                             <div class="col-md-8">
                                 <label for="inputEmail4" class="form-label">Base Range</label>
-                                <input type="text" class="form-control" name="Base Range" required>
+                                <input type="text" class="form-control" name="base_range" required>
                             </div>
 
                             <div class="col-md-4">
                                 <label for="inputEmail4" class="form-label">Monthly Contribution</label>
-                                <input type="number" class="form-control" name="Monthly Contribution" required>
+                                <input type="number" class="form-control" name="monthly_contribution" required>
                             </div>
 
                             <div class="col-md-4">
                                 <label for="inputEmail4" class="form-label">Employee Share</label>
-                                <input type="number" class="form-control" name="Employee Share" required>
+                                <input type="number" class="form-control" name="employee_share" required>
                             </div>
 
                             <div class="col-md-4">
                                 <label for="inputEmail4" class="form-label">Employee Share</label>
-                                <input type="number" class="form-control" name="Employee Share" required>
+                                <input type="number" class="form-control" name="employee_share" required>
                             </div>
 
 

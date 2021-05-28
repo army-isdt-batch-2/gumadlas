@@ -18,14 +18,14 @@
                                 @csrf
                                 <div class="col-md-6">
                                     <label for="inputEmail4" class="form-label">Cut ofStartf </label>
-                                    <input type="date" class="form-control" id="Cut_off_Startf" required>
+                                    <input type="date" class="form-control" name="cut_off_start" required>
                                 </div>
 
 
 
                                 <div class="col-md-6">
                                     <label for="inputEmail4" class="form-label">Cut off End</label>
-                                    <input type="date" class="form-control" id="Cut off End" required>
+                                    <input type="date" class="form-control" name="cut_off_end" required>
                                 </div>
                                 
 

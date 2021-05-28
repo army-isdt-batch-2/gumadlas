@@ -58,11 +58,11 @@
                   </div>
                   <div class="col-md-4">
                      <label for="inputPassword4" class="form-label">Designation</label>
-                     <input type="text" class="form-control" name="Designation" required>
+                     <input type="text" class="form-control" name="designation" required>
                   </div>
                   <div class="col-md-4">
                      <label for="inputPassword4" class="form-label">Basic Rate</label>
-                     <input type="number" class="form-control" name="Basic Rate" required>
+                     <input type="number" class="form-control" name="basic_rate" required>
                   </div>
                   <div class="col-md-6">
                      <label for="inputState" class="form-label">Philhealth Contribution table</label>

@@ -18,7 +18,7 @@
                                     @csrf
                                 <div class="col-md-8">
                                 <label for="inputEmail4" class="form-label">Attendance Date</label>
-                                <input type="date" class="form-control" id="Attendance Date" required>
+                                <input type="date" class="form-control" name="attendance_date" required>
                                 </div>
                                 
 

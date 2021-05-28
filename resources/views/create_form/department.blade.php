@@ -13,12 +13,11 @@
                         </h4>
                     </div>
                     <div class="col-12">
-                        <form action="department/save" method="post">
-                            @csrf
-                            <form class="row g-3">
+                            <form class="row g-3" action="{{ URL::route('department.create.save') }}" method="post">
+                                @csrf>
                                 <div class="col-md-6">   
                                 <label for="inputEmail4" class="form-label">Department</label>
-                                <input type="text" class="form-control" name="Department" required>
+                                <input type="text" class="form-control" name="department" required>
                                 </div>
                                 <div class="col-12">
                                 <button type="submit" class="btn btn-primary">Save</button>
